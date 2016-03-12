@@ -1,0 +1,32 @@
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="lib\tkr.css" />
+<script type="text/javascript" src="lib\jquery.js"></script>
+<script type="text/javascript" src="lib\jquery.xdomainajax.js"></script>
+<script type="text/javascript" src="lib\tkr.js"></script>
+<HTA:APPLICATION
+      ID="app"
+      CAPTION="no"
+      BORDER="none"
+      CONTEXTMENU="yes"
+      SHOWINTASKBAR="no"
+      SINGLEINSTANCE="no"
+      SCROLL="no"
+      NAVIGABLE="no"
+      RESIZABLE="no"
+ />
+</head>
+<body onBlur="focus()">
+
+<div class="container">
+    <div class="left">
+       <button onclick="javascript:window.close();" onmousedown="setTimeout('dflag=false',0)">x</button>
+    </div>
+    <div class="right">
+       <div id="main"></div>
+    </div>
+</div>
+
+</body>
+</html>
