@@ -1,5 +1,6 @@
 body {
    margin: 0;
+   font-size: 80%; 
    font-family: "MS PGothic", "Osaka", Arial, sans-serif;
 }
 body, html {
@@ -17,6 +18,7 @@ button {
    overflow: hidden;
 }
 .right {
+    padding-top: 7px;
     float: none;
     width: auto;
 }
@@ -24,3 +26,19 @@ button {
     float: left;
     overflow: hidden;
 }
+a:link {
+	color: #ffffff;
+}
+a:visited {
+	color: #ffffff;
+}
+a:hover {
+	color: #ffffff;
+}
+a:active {
+	color: #ffffff;
+}
+a {
+	text-decoration: none;
+}
+
